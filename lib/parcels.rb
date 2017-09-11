@@ -11,7 +11,7 @@ class Parcels
   end
 
   def cost_to_ship
-    cost = @weight * volume() / 100
+    cost = @weight * volume() / 300
   if cost <= 5
     cost = 5
   end

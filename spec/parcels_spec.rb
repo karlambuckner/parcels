@@ -9,7 +9,7 @@ describe(Parcels) do
     end
     it('calculates price based on volume and weight') do
       test_price = Parcels.new(3, 4, 5, 10)
-      expect(test_price.cost_to_ship()).to(eq(6))
+      expect(test_price.cost_to_ship()).to(eq(5))
     end
   end
 end
